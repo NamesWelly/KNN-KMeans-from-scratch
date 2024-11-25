@@ -13,9 +13,12 @@ training_indices = list(range(0,20)) + list(range(40,188)) + list(range(230,310)
 test_indices = list(range(20,40)) + list(range(188,230))
 
 trainx = x[training_indices,:]
-trainy = y[training_indices]
+trainy = y[training_indices] I'm breaking this
 testx = x[test_indices,:]
 testy = y[test_indices]
+
+print("Yeha")
+
 
 ###Creating the individual functions to calculate L2 Norm
 def squared_dist(x,y):
